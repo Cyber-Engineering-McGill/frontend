@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@stripe/stripe-js": "^7.6.1",
     "@types/luxon": "^3.6.2",
     "framer-motion": "^12.12.1",
     "luxon": "^3.7.1",
@@ -17,8 +16,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-google-recaptcha": "^3.1.0",
-    "react-toastify": "^11.0.5",
-    "stripe": "^18.3.0"
+    "react-toastify": "^11.0.5"
   },
   "pnpm": {
     "onlyBuiltDependencies": ["sharp", "unrs-resolver"]
