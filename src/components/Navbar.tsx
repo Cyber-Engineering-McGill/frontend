@@ -55,21 +55,6 @@ export default function Navbar() {
           >
             Contact&nbsp;Us
           </Link>
-
-          <Link
-            href="/shop"
-            className="text-sm font-medium hover:text-white transition"
-          >
-            Shop
-          </Link>
-
-          <Link
-            href="/shop/cart"
-            className="relative flex h-8 w-8 items-center justify-center rounded-md border border-red-300/80 text-red-400 hover:bg-red-400/10"
-            suppressHydrationWarning
-          >
-            🛒
-          </Link>
         </div>
       </nav>
     </header>
