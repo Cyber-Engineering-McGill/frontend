@@ -1,0 +1,17 @@
+@import url('./author.css');
+@import "tailwindcss";
+
+.h-navbar {
+  height: var(--navbar-h);
+}
+
+html, body {
+  overscroll-behavior: none;
+  background-color: #1e1e1e;
+
+  --navbar-h: 80px;
+}
+@layer utilities {
+  .font-author        { font-family: 'Author-Regular', sans-serif; }
+  .font-author-bold   { font-family: 'Author-Bold',    sans-serif; }
+}
